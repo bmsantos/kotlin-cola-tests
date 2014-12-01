@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bmsantos/kotlin-cola-tests.svg?branch=master)](https://travis-ci.org/bmsantos/kotlin-cola-tests)
+
 kotlin-cola-tests
 =================
 
