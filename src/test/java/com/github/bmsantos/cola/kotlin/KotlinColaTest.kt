@@ -7,13 +7,14 @@ import com.github.bmsantos.maven.cola.story.annotations.When
 import com.github.bmsantos.maven.cola.story.annotations.Then
 import org.junit.Assert.assertThat
 import org.hamcrest.Matchers.contains
+import cola.ide.BaseColaTest
 
 /**
  * Created with IntelliJ IDEA.
  * Date: 11/29/14
  * Time: 10:48 PM
  */
-class KotlinColaTest {
+class KotlinColaTest : BaseColaTest() {
 
     private val stories:String = """
        Feature: Introduce drinking
@@ -43,10 +44,5 @@ class KotlinColaTest {
     Then("one will be (drunk|really energetic)!")
     public fun thenWillBePissed() {
         assertThat(executionOrder, contains("givenADrink", "whenMixed"));
-    }
-
-    Test
-    public fun test() {
-
     }
 }

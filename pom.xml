@@ -99,14 +99,9 @@
                 <artifactId>cola-maven-plugin</artifactId>
                 <version>${cola.version}</version>
                 <configuration>
-                    <ideBaseClass>com.github.bmsantos.maven.cola.BaseColaTest</ideBaseClass>
-                    <ideBaseClassTest>iWillBeRemoved</ideBaseClassTest>
                     <includes>
                         <include>**/*Test.class</include>
                     </includes>
-                    <excludes>
-                        <exclude>**/ExcludedTest.class</exclude>
-                    </excludes>
                 </configuration>
                 <executions>
                     <execution>
