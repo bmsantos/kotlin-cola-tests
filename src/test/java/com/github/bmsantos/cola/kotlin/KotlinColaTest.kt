@@ -22,7 +22,6 @@ class KotlinColaTest {
          When mixed with 13 other alcoholic drinks
          Then one will be drunk!
 
-       Feature: Introduce soft drinking
         Scenario: Should be energetic
          Given a juice to enjoy
          When mixed with 10 other redbulls
@@ -44,5 +43,10 @@ class KotlinColaTest {
     Then("one will be (drunk|really energetic)!")
     public fun thenWillBePissed() {
         assertThat(executionOrder, contains("givenADrink", "whenMixed"));
+    }
+
+    Test
+    public fun test() {
+
     }
 }
