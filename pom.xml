@@ -9,7 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <cola.version>0.0.1-SNAPSHOT</cola.version>
+        <cola.version>0.0.1</cola.version>
         <kotlin.version>0.9.206</kotlin.version>
     </properties>
 
