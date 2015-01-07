@@ -2,9 +2,9 @@ package com.github.bmsantos.cola.kotlin
 
 import org.junit.Test
 import java.util.ArrayList
-import com.github.bmsantos.maven.cola.story.annotations.Given
-import com.github.bmsantos.maven.cola.story.annotations.When
-import com.github.bmsantos.maven.cola.story.annotations.Then
+import com.github.bmsantos.core.cola.story.annotations.Given
+import com.github.bmsantos.core.cola.story.annotations.When
+import com.github.bmsantos.core.cola.story.annotations.Then
 import org.junit.Assert.assertThat
 import org.hamcrest.Matchers.contains
 import cola.ide.BaseColaTest

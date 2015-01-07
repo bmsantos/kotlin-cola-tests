@@ -4,17 +4,17 @@
 
     <groupId>com.github.bmsantos</groupId>
     <artifactId>kotlin-cola-tests</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
-        <cola.version>0.0.2</cola.version>
-        <kotlin.version>0.9.206</kotlin.version>
+        <cola.version>0.0.3-SNAPSHOT</cola.version>
+        <kotlin.version>0.10.195</kotlin.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.github.bmsantos</groupId>
-            <artifactId>cola-maven-plugin</artifactId>
+            <artifactId>cola-tests</artifactId>
             <version>${cola.version}</version>
         </dependency>
         <dependency>
