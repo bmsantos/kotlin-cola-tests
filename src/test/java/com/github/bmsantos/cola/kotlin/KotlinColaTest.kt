@@ -1,6 +1,5 @@
 package com.github.bmsantos.cola.kotlin
 
-import org.junit.Test
 import java.util.ArrayList
 import com.github.bmsantos.core.cola.story.annotations.Given
 import com.github.bmsantos.core.cola.story.annotations.When
@@ -16,7 +15,7 @@ import cola.ide.BaseColaTest
  */
 class KotlinColaTest : BaseColaTest() {
 
-    private val stories:String = """
+    private val stories: String = """
        Feature: Introduce drinking
         Scenario: Should get happy
          Given a beer to enjoy
@@ -36,7 +35,7 @@ class KotlinColaTest : BaseColaTest() {
         executionOrder.add(Thread.currentThread().getStackTrace()[1].getMethodName());
     }
 
-    When("mixed with \\d+ other (redbulls|alcoholic drinks)")
+    When("""mixed with \d+ other (redbulls|alcoholic drinks)""")
     public fun whenMixed() {
         executionOrder.add(Thread.currentThread().getStackTrace()[1].getMethodName());
     }

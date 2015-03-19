@@ -8,7 +8,7 @@
 
     <properties>
         <cola.version>0.1.0</cola.version>
-        <kotlin.version>0.10.195</kotlin.version>
+        <kotlin.version>0.11.91</kotlin.version>
     </properties>
 
     <dependencies>
